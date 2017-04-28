@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kmn.android01.MainActivity">
+
+    <LinearLayout
+        android:layoutAnimation="@anim/layout_anime1"
+        android:layout_width="375dp"
+        android:layout_height="496dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="7dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:weightSum="1">
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.01"
+            android:background="@android:color/holo_blue_bright"
+            android:lineSpacingExtra="14sp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="実行" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
